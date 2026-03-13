@@ -1,0 +1,27 @@
+{
+    "name": "portfolio-start-project-vite",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0",
+        "styled-components": "^6.3.11"
+    },
+    "devDependencies": {
+        "@neodx/svg": "^0.8.0",
+        "@swc/plugin-styled-components": "^12.7.0",
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "@types/styled-components": "^5.1.36",
+        "@vitejs/plugin-react-swc": "^3.9.0",
+        "typescript": "^5.8.3",
+        "vite": "^6.2.6"
+    }
+}
